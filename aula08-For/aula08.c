@@ -1,0 +1,30 @@
+
+// O comando include serve para incluir bibliotecas de funções
+// <stdio.h>  Funções de entrada e saída de dados
+// <string.h>  Funções de string
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+
+    int N, i, x, soma;
+
+    printf("Quantos numeros serao digitados? ");
+    scanf("%d", &N);
+
+    soma = 0;
+
+    for (i = 1; i <= N; i++)
+    {
+        printf("Digite um numero: ");
+        scanf("%d", &x);
+        soma = soma + x;
+    }
+
+    printf("SOMA = %d\n", soma);
+
+    return 0;
+}
+
