@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1698976495 source:c:\codes\ws-c\exercicio01-terreno\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
